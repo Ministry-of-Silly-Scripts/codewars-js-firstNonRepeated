@@ -62,3 +62,4 @@ Examples
   - it should return {t: 2, e: 3, r: 1} for input "teeter" ✅
   - it should return {a: 2, b: 2, c: 2} for input "abccba" ✅
 - it should return 'e' for input 'test' ✅
+- it should return 'r' for input 'teeter' ✅
