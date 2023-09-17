@@ -7,7 +7,7 @@ describe('the firstNonRepeated kata canary spec', () => {
 });
 
 describe('firstNonRepeated', () => {
-  it('should return hello', () => {
-    expect(firstNonRepeated()).toBe('hello');
+  it('should return null for empty string input', () => {
+    expect(firstNonRepeated('')).toBeNull();
   });
 });

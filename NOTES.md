@@ -49,3 +49,4 @@ Examples
   - update code/test files ✅
 - domain description ✅
 - perform the 'canary' test just to check if the structure works ✅
+- it should return null for empty string ✅

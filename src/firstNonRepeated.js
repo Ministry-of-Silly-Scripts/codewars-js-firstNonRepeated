@@ -1,5 +1,5 @@
-function firstNonRepeated() {
-  return 'hello';
+function firstNonRepeated(s) {
+  return null;
 }
 
 module.exports = firstNonRepeated;
