@@ -1,4 +1,4 @@
-const hello = require('./hello');
+const firstNonRepeated= require('./firstNonRepeated');
 
 describe('the kata name canary spec', () => {
   it('shows the infrastructure works', () => {
@@ -6,8 +6,8 @@ describe('the kata name canary spec', () => {
   });
 });
 
-describe('hello', () => {
+describe('firstNonRepeated', () => {
   it('should return hello', () => {
-    expect(hello()).toBe('hello');
+    expect(firstNonRepeated()).toBe('hello');
   });
 });
