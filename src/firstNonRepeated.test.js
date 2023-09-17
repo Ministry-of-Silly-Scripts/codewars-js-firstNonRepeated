@@ -22,6 +22,10 @@ describe('firstNonRepeated', () => {
   it('should return "r" for input "teeter"', () => {
     expect(firstNonRepeated('teeter')).toBe('r');
   });
+
+  it('should return "t" for input "trend"', () => {
+    expect(firstNonRepeated('trend')).toBe('t');
+  });
 });
 
 describe('getCharFrequency', () => {

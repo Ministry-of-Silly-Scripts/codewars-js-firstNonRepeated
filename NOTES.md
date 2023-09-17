@@ -63,3 +63,4 @@ Examples
   - it should return {a: 2, b: 2, c: 2} for input "abccba" ✅
 - it should return 'e' for input 'test' ✅
 - it should return 'r' for input 'teeter' ✅
+- it should return 't' for input 'trend' ✅
