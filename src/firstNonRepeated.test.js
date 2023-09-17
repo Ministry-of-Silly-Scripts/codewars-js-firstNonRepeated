@@ -26,6 +26,10 @@ describe('firstNonRepeated', () => {
   it('should return "t" for input "trend"', () => {
     expect(firstNonRepeated('trend')).toBe('t');
   });
+
+  it('should return null for input "aabbcc"', () => {
+    expect(firstNonRepeated('aabbcc')).toBeNull();
+  });
 });
 
 describe('getCharFrequency', () => {

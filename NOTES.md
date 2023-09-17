@@ -64,3 +64,4 @@ Examples
 - it should return 'e' for input 'test' ✅
 - it should return 'r' for input 'teeter' ✅
 - it should return 't' for input 'trend' ✅
+- it should return null for input 'aabbcc' ✅
