@@ -1,6 +1,6 @@
 const firstNonRepeated= require('./firstNonRepeated');
 
-describe('the kata name canary spec', () => {
+describe('the firstNonRepeated kata canary spec', () => {
   it('shows the infrastructure works', () => {
     expect(true).toBe(true);
   });
