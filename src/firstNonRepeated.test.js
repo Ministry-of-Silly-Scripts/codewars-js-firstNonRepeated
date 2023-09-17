@@ -10,4 +10,8 @@ describe('firstNonRepeated', () => {
   it('should return null for empty string input', () => {
     expect(firstNonRepeated('')).toBeNull();
   });
+
+  it('should return "a" for input "a"', () => {
+    expect(firstNonRepeated('a')).toBe('a');
+  });
 });

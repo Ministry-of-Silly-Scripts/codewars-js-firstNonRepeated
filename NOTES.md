@@ -50,3 +50,5 @@ Examples
 - domain description ✅
 - perform the 'canary' test just to check if the structure works ✅
 - it should return null for empty string ✅
+- it should return the input string if length equal to 1
+  - it should return 'a' for input 'a' ✅
