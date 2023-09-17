@@ -1,6 +1,10 @@
-function firstNonRepeated(s) {
-  if (s.length === 1) {
-    return s
+function firstNonRepeated(str) {
+  let freq = getCharFrequency(str)
+
+  for (const char of str) {
+    if (freq[char] === 1) {
+      return char;
+    }
   }
 
   return null;

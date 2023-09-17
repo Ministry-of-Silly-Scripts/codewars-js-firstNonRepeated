@@ -27,7 +27,7 @@ Examples
 
 - input: non-zero length string
 - output: first non-repeated character in a string
-- all unique: return the frist character of the string
+- all unique: return the first character of the string
 - no unique: return `null`
 
 ## Backlog
@@ -61,3 +61,4 @@ Examples
   - auxiliary function getCharFrequency will return a map with the char letters 
   - it should return {t: 2, e: 3, r: 1} for input "teeter" ✅
   - it should return {a: 2, b: 2, c: 2} for input "abccba" ✅
+- it should return 'e' for input 'test' ✅
