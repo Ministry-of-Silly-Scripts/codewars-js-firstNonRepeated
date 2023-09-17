@@ -20,7 +20,15 @@ Examples
 
 ## Domain
 
+- string manipulation 
+- analyzing frequency of characters in a given string.
+
 ## Rules
+
+- input: non-zero length string
+- output: first non-repeated character in a string
+- all unique: return the frist character of the string
+- no unique: return `null`
 
 ## Backlog
 
@@ -39,6 +47,6 @@ Examples
   - update NOTES ✅
   - update package.json ✅
   - update code/test files ✅
-- domain description 
+- domain description ✅
 - backlog
 - perform the 'canary' test just to check if the structure works
